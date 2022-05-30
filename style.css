@@ -2,4 +2,44 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  padding: 0;
+  
+}
+h1{
+  text-align: center;
+}
+figure{
+  display: flex;
+  flex-direction: column;
+  justify-content: center center;
+  
+}
+figure img{
+  width: 100%;
+}
+figcaption{
+  text-align: center;
+  font-size: 10px;
+}
+nav > a{
+  background-color: palevioletred;
+  padding: 0 10px 0 10px;
+}
+nav{
+  position: relative;
+  text-align: center;
+}
+
+#details{
+  float: left;
+  background-color: red;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+}
+#featured-property  >p{
+width: 800px;
+position: relative;
+display: flex;
+justify-content: center ;
 }
